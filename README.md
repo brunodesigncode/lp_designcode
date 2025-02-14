@@ -1,5 +1,3 @@
-Ótimo! Agora que tenho o link do repositório, o README já está adaptado para incluir seu repositório do GitHub:
-
 ```markdown
 # README
 
