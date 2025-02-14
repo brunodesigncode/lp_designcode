@@ -1,0 +1,24 @@
+name: Deploy para Hostinger
+
+on:
+  push:
+    branches:
+      - main  
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v3
+
+      - name: Deploy via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4
+        with:
+          server: 147.93.37.82  
+          username: ${{ secrets.FTP_USER }}  
+          password: ${{ secrets.FTP_PASS }}  
+          local-dir: ./ 
+          server-dir: /public_html/lp_designcode/  
+          
