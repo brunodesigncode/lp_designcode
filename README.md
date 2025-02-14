@@ -13,7 +13,7 @@ Este repositório contém o código-fonte da landing page Design Code, desenvolv
 - [Contribuição](#contribuicao)
 - [Licença](#licenca)
 
-## Visão Geral
+## Visão Gerall
 
 A landing page fornece uma visão abrangente dos serviços oferecidos pela agência, apresenta os membros da equipe e apresenta diferentes planos de serviço para potenciais clientes. Também inclui um formulário de contato para consultas e feedback.
 
